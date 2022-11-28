@@ -1,111 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <title>La Panacea</title>
-    <link 
-      rel="icon"
-      type="image/png"
-      href="img/Logo.png"
-      sizes="32x32"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>La Panacea - Delicatessen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    <meta charset="utf-8" />
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
     />
-    <script
-      src="https://kit.fontawesome.com/7acc2c405f.js"
-      crossorigin="anonymous"></script>
-    </script>
+
+    <link rel="stylesheet" href="estilos-principal.css" />
   </head>
 
   <body>
-    <div class="main-container">
-      <header>
-        <div id="contenedor-de-marca">
-          <img src="img/LogoPanacea.png" width="180" height="180" alt="" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div id="contenedor-de-marca" class="home-container1">
+          <img
+            alt="image"
+            src="https://play.teleporthq.io/static/svg/default-img.svg"
+            class="home-image"
+          />
         </div>
-      </header>
 
-      <span class="nav-bar" id="btnMenu"
-        ><i class="fa-solid fa-bars"></i> Menú</span
-      >
-      <nav class="main-nav">
-        <ul class="menu" id="menu">
-          <li class="menu__item">
-            <a href="index.html" class="menu__link"><b>Inicio</b></a>
-          </li>
-          <li class="menu__item">
-            <a href="Nosotros.html" class="menu__link"><b>Nosotros</b></a>
-          </li>
-          <li class="menu__item container-submenu">
-            <a href="Productos.html" class="menu__link submenu-btn"
-              ><b>Productos </b><i class="fa-solid fa-caret-down"></i
-            ></a>
-            <ul class="submenu">
-              <li class="menu__item">
-                <a href="Encurtidos.html" class="menu__link"
-                  ><b>Encurtidos</b></a
+        <header data-thq="thq-navbar" class="home-navbar-interactive">
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="home-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="home-nav"
+            >
+              <a
+                href="http://index.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link"
+              >
+                Principal
+              </a>
+              <a
+                href="http://nosotros.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link1"
+              >
+                Nosotros
+              </a>
+              <div data-thq="thq-dropdown" class="home-thq-dropdown list-item">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="home-dropdown-toggle"
                 >
-              </li>
-              <li class="menu__item">
-                <a href="Salsas.html" class="menu__link"><b>Salsas</b></a>
-              </li>
-              <li class="menu__item">
-                <a href="Mermeladas.html" class="menu__link"
-                  ><b>Mermeladas</b></a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="menu__item">
-            <a href="Contacto.Html" class="menu__link"><b>Contacto</b></a>
-          </li>
-        </ul>
-      </nav>
+                  <span class="home-text">Catálogo</span>
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    class="home-dropdown-arrow"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul data-thq="thq-dropdown-list" class="home-dropdown-list">
+                  <li data-thq="thq-dropdown" class="home-dropdown list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle1"
+                    >
+                      <a
+                        href="https://encurtidos.html"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-text01"
+                      >
+                        Encurtidos
+                      </a>
+                    </div>
+                  </li>
+                  <li data-thq="thq-dropdown" class="home-dropdown1 list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle2"
+                    >
+                      <a
+                        href="https://salsas.html"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-link2"
+                      >
+                        Salsas
+                      </a>
+                    </div>
+                  </li>
+                  <li data-thq="thq-dropdown" class="home-dropdown2 list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle3"
+                    >
+                      <a
+                        href="https://mermeladas.html"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-link3"
+                      >
+                        Mermeladas
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <a
+                href="http://contacto.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link4"
+              >
+                Contacto
+              </a>
+              
+            </nav>
 
-      <div class="title">
-        <h1><div class="animate__animated animate__fadeInDown">Delicias que te acompañan día a día</div></h1>
-      </div>
+          </div>
 
-      <div class="slider">
-        <div class="slide-track">
-          <div class="slide"><img src="img/slider1.jpg" alt="" /></div>
-          <div class="slide"><img src="img/slider2.jpg" alt="" /></div>
-          <div class="slide"><img src="img/slider3.jpg" alt="" /></div>
-          <div class="slide"><img src="img/slider5.jpg" alt="" /></div>
+        </header>
 
-          <div class="slide"><img src="img/slider1.jpg" alt="" /></div>
-          <div class="slide"><img src="img/slider2.jpg" alt="" /></div>
-          <div class="slide"><img src="img/slider3.jpg" alt="" /></div>
-          <div class="slide"><img src="img/slider5.jpg" alt="" /></div>
+        <div class="home-container2 titulo">
+          <span class="home-text02">
+            <span>LA PANACEA</span>
+            <br />
+          </span>
+
+          <span class="home-text05">
+            <span>Delicias que te acompañan día a día</span>
+            <br />
+          </span>
+
         </div>
-      </div>
 
-      <p>
-        <b>
-          La Panacea es una tienda de Delicatessen especializada en la
-          elaboración de productos tradicionales. <br />
-          Nuestro estilo de producción está basado en técnicas artesanales,
-          <br />
-          que además están garantizadas con los mejores estándares de
-          elaboración<br />
-          para brindar a nuestros clientes exigentes, productos de
-          excelencia.</b
-        >
-      </p>
+        <div class="home-container3 descripcion">
+          <img
+            alt="portada"
+            src="https://play.teleporthq.io/static/svg/default-img.svg"
+            class="home-image1"
+          />
+
+          <span class="home-text08">
+            La Panacea es una tienda de Delicatessen especializada en la
+            elaboración de productos tradicionales. Nuestro estilo de producción
+            está basado en técnicas artesanales, que además están garantizadas
+            con los mejores estándares de elaboración para brindar a nuestros
+            clientes productos de excelencia.
+          </span>
+        </div>
+
+        <div class="home-container4 footer">
+          <span class="home-text09">
+            <span>LA PANACEA™, Zárate, Buenos Aires, Argentina</span>
+            <br />
+          </span>
+        </div>
+
+      </div>
     </div>
+
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts">
+    </script>
   </body>
-
-  <footer>
-    <div class="footer">
-      <b>LA PANACEA&trade; Zárate, Buenos Aires, Argentina</b>
-    </div>
-  </footer>
-
-  <script src="jsfile.js"></script>
 </html>
